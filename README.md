@@ -1,2 +1,1 @@
-# docker-nginx-proxy
-NGINX Proxy build files
+# NGINX Proxy build files
