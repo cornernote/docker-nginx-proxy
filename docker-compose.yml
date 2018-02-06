@@ -1,6 +1,9 @@
 version: '2'
+
 services:
+
   nginxproxy:
+    restart: unless-stopped
     image: jwilder/nginx-proxy
     container_name: nginx-proxy
     ports:
